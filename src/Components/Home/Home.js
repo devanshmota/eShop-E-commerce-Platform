@@ -7,7 +7,7 @@ function Home() {
     return (
         <>
             <div>
-                <img src={process.env.PUBLIC_URL + "/ecommerce-768x278.jpg"} alt="bg-img" className='bg-img' />
+                <img src="https://www.x-cart.com/wp-content/uploads/2019/01/ecommerce-768x278.jpg" alt="bg-img" className='bg-img' />
             </div>
             <div className="product-container">
                 <Product
