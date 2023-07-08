@@ -1,0 +1,35 @@
+h4 {
+    margin: 0;
+}
+
+.navbar {
+    height: 60px;
+}
+
+input.form-control {
+    border-radius: 0px;
+}
+
+input.form-control:focus {
+    box-shadow: none;
+}
+
+i.fa.fa-search.bg-warning {
+    padding: 11px;
+}
+
+span.greet {
+    font-size: 12px;
+}
+
+span.your {
+    font-size: 12px;
+}
+
+.last-box {
+    width: 15%;
+}
+
+.form-control {
+    width: 900px;
+}

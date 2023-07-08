@@ -1,0 +1,18 @@
+.checkout-left img {
+    width: 100%;
+}
+
+.checkout-right {
+    display: flex;
+    background-color: #fadfdf;
+    height: 175px;
+    flex-direction: column;
+    padding: 10px 20px;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    font-size: 18px;
+}
+
+.col-sm-3 .checkout-right p {
+    margin: 0;
+}

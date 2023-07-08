@@ -1,0 +1,15 @@
+.allInputs {
+    height: 35px;
+    outline: none;
+    border: none;
+}
+
+.allInputs-last {
+    background-color: #e2e6e3;
+    height: 35px;
+}
+
+.paragraph {
+    font-size: 15px;
+
+}
