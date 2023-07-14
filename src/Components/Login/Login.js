@@ -3,7 +3,6 @@ import './Login.css'
 import { useNavigate } from 'react-router-dom';
 import { auth } from '../Firebase/Firebase';
 
-
 function Login() {
     const navigate = useNavigate();
     const [email, setEmail] = useState('');
@@ -16,6 +15,7 @@ function Login() {
             .then(auth => {
 
                 if (auth) {
+
                     navigate('/');
                 }
 

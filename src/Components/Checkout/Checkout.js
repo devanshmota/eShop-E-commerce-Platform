@@ -23,7 +23,7 @@ function Checkout() {
                             <hr />
 
 
-                            {basket.map((item) =>
+                            {basket.map((item, index) =>
 
                                 <CheckoutProduct
                                     id={item.id}
@@ -31,6 +31,7 @@ function Checkout() {
                                     image={item.image}
                                     price={item.price}
                                     rating={item.rating}
+                                    key={index}
                                 />
 
                             )}

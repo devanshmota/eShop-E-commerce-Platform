@@ -23,7 +23,7 @@ function Product({ id, title, price, rating, image }) {
         <>
             <div className="product-item text-center bg-white p-3 w-100">
                 <p className='text-start m-0'>{title}<br /><small>$</small> <strong>{price}</strong><br />
-                    {Array(rating).fill().map(() => (<span>⭐</span>))}
+                    {Array(rating).fill().map((_, index) => (<span key={index}>⭐</span>))}
                 </p>
 
 
