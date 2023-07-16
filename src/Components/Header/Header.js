@@ -51,7 +51,7 @@ function Header() {
                     </div>
                     <div className="col-3 d-flex align-items-center justify-content-around">
                         {user ? (
-                            <div className="header_signIn d-flex flex-column lh-1 text-white text-decoration-none">
+                            <div className="header_signOut d-flex flex-column lh-1">
                                 <span className='greet flex-start'>Hello, {user}</span>
                                 <span className='signIn fw-bold' onClick={handleSignOut}>Sign Out</span>
                             </div>
